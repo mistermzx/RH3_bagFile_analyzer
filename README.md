@@ -65,3 +65,10 @@ Terminal Output:
      average: 0.079504
      median: 0.072142
 ```
+
+# Extra Stuff
+## build
+dts devel build -f --arch amd64
+## run
+docker run -it --rm  -v ~/Documents/rh3_bagfile_analyzer:/home -e BAGFILE_PATH=/home/data/example_rosbag_H3.bag duckietown/rh3_bagfile_analyzer:v1-amd64
+docker run -it --rm  -v ~/Documents/rh3_bagfile_analyzer:/home -e BAGFILE_PATH=/home/data/amod19-rh3-ex-record-MartinZiranXu.bag duckietown/rh3_bagfile_analyzer:v1-amd64
