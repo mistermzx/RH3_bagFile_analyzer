@@ -41,3 +41,10 @@ a different location later.
 
 Change the file `launch.sh` in your repository to
 launch your code.
+
+### How to execute
+# build
+dts devel build -f --arch amd64
+# run
+docker run -it --rm  -v ~/Documents/rh3_bagfile_analyzer:/home -e BAGFILE_PATH=/home/data/example_rosbag_H3.bag duckietown/rh3_bagfile_analyzer:v1-amd64
+docker run -it --rm  -v ~/Documents/rh3_bagfile_analyzer:/home -e BAGFILE_PATH=/home/data/laneFollowing_rh3.bag duckietown/rh3_bagfile_analyzer:v1-amd64

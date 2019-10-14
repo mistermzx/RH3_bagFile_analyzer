@@ -1,5 +1,5 @@
 # parameters
-ARG REPO_NAME="RH3_bagfile_analyzer"
+ARG REPO_NAME="rh3_bagfile_analyzer"
 
 # ==================================================>
 # ==> Do not change this code
