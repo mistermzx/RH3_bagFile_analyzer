@@ -13,11 +13,11 @@ dts devel build -f --arch amd64
 ```
 
 3. Run docker container:
-a) For example .bag file:
+ *For example .bag file:
 ```shell
 docker run -it --rm  -v ~/Documents/rh3_bagfile_analyzer:/home -e BAGFILE_PATH=/home/data/example_rosbag_H3.bag duckietown/rh3_bagfile_analyzer:v1-amd64
 ```
-b) For recorded .bag file (lane following):
+ *For recorded .bag file (lane following):
 ```shell
 docker run -it --rm  -v ~/Documents/rh3_bagfile_analyzer:/home -e BAGFILE_PATH=/home/data/amod19-rh3-ex-record-MartinZiranXu.bag duckietown/rh3_bagfile_analyzer:v1-amd64
 ```
