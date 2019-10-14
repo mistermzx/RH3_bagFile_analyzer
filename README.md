@@ -4,8 +4,8 @@ https://github.com/mistermzx/rh3_bagfile_analyzer
 (added surirohit as collaborator)
 ## Instructions to reproduce results:
 1. Place .bag files in /data folder
-  1. example_rosbag_H3.bag 
-  2. amod19-rh3-ex-record-MartinZiranXu.bag
+  * example_rosbag_H3.bag 
+  * amod19-rh3-ex-record-MartinZiranXu.bag
 
 2. Build image:
 ```shell
