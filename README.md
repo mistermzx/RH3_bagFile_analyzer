@@ -51,7 +51,6 @@ Terminal Output:
   * amod19-rh3-ex-record-MartinZiranXu.bag
 ```shell
 /duckiepopstar/camera_node/image/compressed:
-
  num_messages: 871
  period:
      min: 0.012813
